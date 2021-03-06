@@ -1,7 +1,2 @@
-FROM node:alpine
+FROM mysql:5.7
 
-COPY . .
-
-RUN npm install 
-
-CMD ["node", "index.js"]
